@@ -14,7 +14,7 @@ export default function TabsLayout() {
   const tabScreenOptions: BottomTabNavigationOptions = {
     headerTitle: (props) => <LogoTitle {...props} />,
     headerTitleAlign: 'center',
-    headerStyle: { backgroundColor: COLORS.dark },
+    headerStyle: { backgroundColor: COLORS.dark, shadowColor: COLORS.dark },
     tabBarInactiveTintColor: 'white',
     tabBarActiveTintColor: COLORS.primary,
     tabBarLabelStyle: { fontFamily: 'semibold', fontSize: 10 },
